@@ -1,0 +1,91 @@
+.section6 {
+  padding: 11.5rem 7.5rem 0 7.5rem;
+}
+
+.section6 > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section6 img {
+  box-shadow: -33px 37px 0px 0px rgba(250, 250, 250, 1);
+}
+
+.section6 h2 {
+  font-size: 4.2rem;
+  line-height: 6rem;
+}
+
+.aboutCompany {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  padding-right: 4.2rem;
+  padding-bottom: 3.8rem;
+}
+
+.underline {
+  margin-bottom: 1.5rem;
+}
+
+.left {
+  padding-right: 2.2rem;
+}
+
+label {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  display: block;
+  padding-bottom: 1.5rem;
+}
+.inputs input {
+  border: none;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  padding-bottom: 1.1rem;
+}
+
+.inputsRow {
+  display: flex;
+}
+
+.inputUnderLine {
+  height: 0.1rem;
+  width: 28rem;
+  background-color: #555;
+  margin-bottom: 4.8rem;
+}
+
+.form {
+  margin-right: 3.2rem;
+}
+
+.formConfirmation {
+  display: flex;
+}
+
+.sendButton {
+  font-size: 1.4rem;
+  line-height: 1.3rem;
+  padding: 2.2rem 4.4rem 2rem 4.4rem;
+  background-color: #220959;
+  border-radius: 3rem;
+  color: #ffffff;
+  margin-right: 2.7rem;
+}
+
+.agreement {
+  font-size: 1.4rem;
+  line-height: 143%;
+  color: #727272;
+  position: relative;
+  top: 50%;
+  transform: translateY(20%);
+}
+
+@media (max-width: 1330px) {
+  .section6 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

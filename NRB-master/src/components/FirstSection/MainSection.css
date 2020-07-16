@@ -1,0 +1,148 @@
+/* styling section 1 background*/
+.section1 {
+  position: absolute;
+  top: 0;
+  background: url('../../img/Black.png');
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background-color: #464646;
+
+  height: 76.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.contacts {
+  display: flex;
+  padding-top: 3.3rem;
+  padding-right: 8rem;
+  justify-content: flex-start;
+  padding-bottom: 1.7rem;
+}
+
+.contacts li {
+  font-size: 1.6rem;
+  float: right;
+}
+
+.fa-phone-alt {
+  width: 2.1rem;
+  height: 2.1rem;
+}
+
+.fa-map-marker-alt {
+  width: 1.7rem;
+  height: 2.3rem;
+}
+
+.fa-envelope {
+  width: 2.4rem;
+  height: 1.8rem;
+}
+
+/* line height for navbar elements */
+.contacts li {
+  line-height: 1.5rem;
+  /* padding-right: 4.7rem; */
+}
+
+.navPhone,
+.navAddress {
+  padding-right: 4.7rem;
+}
+
+.navEmail {
+  padding-right: 0;
+}
+
+/* styling social icons */
+.social {
+  display: flex;
+  position: absolute;
+  bottom: 3.03rem;
+  left: 7.6rem;
+}
+.social i {
+  font-size: 1.4rem;
+  color: #220959;
+  padding: 0.84rem 0.91rem 0.84rem 0.91rem;
+  border-radius: 10px;
+  border: 2px #220959 solid;
+  border-radius: 30px;
+  margin-right: 1.96rem;
+}
+.social i.fa-facebook {
+  font-size: 1.25rem;
+  padding: 1rem 1.2rem;
+}
+
+/* styling menu */
+.menu {
+  display: flex;
+
+  justify-content: flex-start;
+  padding-top: 2.3rem;
+}
+.menu li {
+  font-size: 1.8rem;
+  line-height: 1.7rem;
+  padding-right: 4.5rem;
+}
+
+/* styling logo */
+.section1 {
+  position: relative;
+}
+.section1 img {
+  position: absolute;
+  width: 13.8rem;
+  height: 12.7rem;
+  top: 0.6rem;
+  left: 7.6rem;
+}
+
+/* navbar-holders */
+.navbar-holders {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25.1rem;
+}
+
+.section1 h1 {
+  line-height: 8.4rem;
+  font-size: 8.2rem;
+  color: #220959;
+}
+
+/* styling main info in the first section */
+.about {
+  position: absolute;
+  padding-left: 7.5rem;
+  top: 26.5rem;
+}
+
+.about p {
+  padding-bottom: 3.4rem;
+  padding-top: 1.7rem;
+}
+
+.section1 p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.btn {
+  font-size: 1.6rem;
+  padding: 2.3rem 3rem 2.4rem 3.6rem;
+  margin-bottom: 5rem;
+  border: 2px #220959 solid;
+  border-radius: 6rem;
+  background: transparent;
+}

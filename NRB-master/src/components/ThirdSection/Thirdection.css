@@ -1,0 +1,80 @@
+.container {
+  padding: 10.5rem 7.5rem 0 7.5rem;
+}
+
+.container h1 {
+  font-size: 4.2rem;
+  line-height: 6.4rem;
+}
+.underlineSectionThree {
+  height: 2px;
+  width: 6.8rem;
+  background-color: #555;
+  margin: 0.9rem 0 5rem 0;
+}
+
+.gridSectionThree {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.9rem;
+}
+
+.gridItemSectionThree {
+  height: 8.2rem;
+  border: 1px solid #a8a9ad;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.gridItemExtended {
+  height: 24rem;
+}
+
+.logo {
+  padding: 2.6rem 1.7rem 2.6rem 1.82rem;
+}
+
+.vector {
+  float: right;
+  padding: 3.5rem 1.7rem 3.5rem 0;
+}
+
+.gridSectionThree strong {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.6rem;
+  position: relative;
+  top: -50%;
+  transform: translateY(10%);
+}
+
+@media (max-width: 1200px) {
+  .gridSectionThree {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.9rem;
+  }
+}
+
+@media (max-width: 995px) {
+  .logo {
+    padding: 2rem 1.2rem 2rem 1.3rem;
+  }
+  .gridItemSectionThree {
+    height: 7.2rem;
+    border: 1px solid #a8a9ad;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .gridSectionThree strong {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.1rem;
+    position: relative;
+    top: -50%;
+    transform: translateY(10%);
+  }
+  .vector {
+    float: right;
+    padding: 2.7rem 1.7rem 3rem 0;
+  }
+}

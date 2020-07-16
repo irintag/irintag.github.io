@@ -1,0 +1,29 @@
+* {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gotham Pro;
+}
+
+/* Setting app styling */
+.App {
+  max-width: 1366px;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .App {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  .App {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .App {
+    max-width: none;
+  }
+}

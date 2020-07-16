@@ -1,0 +1,66 @@
+.section7 {
+  padding-top: 13.5rem;
+}
+
+.section7 > div {
+  position: relative;
+}
+
+.map {
+  z-index: -1;
+}
+
+.underline {
+  margin-bottom: 2.7rem;
+}
+
+.card {
+  background-color: #ffffff;
+  position: absolute;
+  top: 6.2rem;
+  right: 21rem;
+  padding: 3.1rem 4.8rem 5rem 4.6rem;
+}
+
+.card h1 {
+  font-size: 4.2rem;
+  line-height: 152%;
+}
+.card h5 {
+  font-size: 2.1rem;
+  line-height: 3.1rem;
+  padding-bottom: 0.8rem;
+}
+
+.about-company {
+  font-size: 1.4rem;
+  line-height: 150%;
+  display: inline;
+}
+
+.address {
+  font-size: 1.6rem;
+  line-height: 150%;
+  padding-bottom: 2.6rem;
+  padding-top: 2.9rem;
+}
+
+.phone {
+  font-size: 1.6rem;
+  line-height: 150%;
+  padding-bottom: 2.6rem;
+}
+
+.mail {
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+.card p {
+  padding-right: 0;
+}
+
+i {
+  font-size: 1.8rem;
+  padding-right: 1.6rem;
+}

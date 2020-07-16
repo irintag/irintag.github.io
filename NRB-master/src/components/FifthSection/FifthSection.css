@@ -1,0 +1,87 @@
+.section5 {
+  padding: 10.2rem 7.5rem 0 7.5rem;
+}
+
+.section5 h1 {
+  font-size: 4.2rem;
+  line-height: 6.4rem;
+}
+
+.underline {
+  margin: 0.2rem 0 5.6rem 0;
+}
+
+.teamCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.personCard {
+  position: relative;
+}
+
+.personInfo {
+  color: #ffff;
+  background-color: #353439;
+  opacity: 0.9;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.8rem 0 0 3rem;
+}
+
+.occupation {
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+.name {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+}
+
+@media (max-width: 1380px) {
+  .section5 {
+    /* padding: 10.2rem 1rem 0 1rem; */
+  }
+  .image {
+    width: 90%;
+  }
+  .personInfo {
+    width: 90%;
+  }
+}
+
+@media (max-width: 765px) {
+  .name {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 616px) {
+  .teamCards {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .name {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+  }
+  .occupation {
+    font-size: 2rem;
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 724px) {
+  .name {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+  }
+  .occupation {
+    font-size: 1.1rem;
+    line-height: 150%;
+  }
+}
